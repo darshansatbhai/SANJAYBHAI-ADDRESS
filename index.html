@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sanjaybhai Satbhai — Digital Visiting Card</title>
+  <meta name="description" content="Contact info, ghar ka pata aur Google Maps location — Sanjaybhai Satbhai, Amraiwadi, Ahmedabad.">
+
+  <!-- Open Graph / WhatsApp Preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sanjaybhai Satbhai — Digital Visiting Card">
+  <meta property="og:description" content="📇 Contact info, ghar ka pata aur Google Maps location — ek link me sab kuch.">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:locale" content="hi_IN">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Sanjaybhai Satbhai — Digital Visiting Card">
+  <meta name="twitter:description" content="📇 Contact info, ghar ka pata aur Google Maps location — ek link me sab kuch.">
+
+  <!-- PWA & Mobile Web App -->
+  <meta name="theme-color" content="#121212">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='85'>📇</text></svg>">
+  <link rel="apple-touch-icon" href="icons/icon-192.svg">
+
+  <!-- Google Fonts: Fraunces & Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- QR Code Library (Pinned) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <main>
+    <!-- 3D Card Stage -->
+    <div class="stage">
+      <div class="card" id="card" tabindex="0" role="button" aria-label="Digital visiting card. Drag to rotate, tap or press Enter to flip.">
+        
+        <!-- Front Face -->
+        <div class="face front">
+          <div class="decor">
+            <i class="slash s1"></i>
+            <i class="slash s2"></i>
+            <div class="mono" id="fMono">S</div>
+          </div>
+          <div class="sweep"></div>
+          <div class="glint"></div>
+          <div class="rim"></div>
+
+          <div class="f-top">
+            <div class="chip"></div>
+            <div class="badge">Digital<br>Visiting Card</div>
+          </div>
+
+          <div class="mid">
+            <h2 class="f-name" id="fName">Sanjaybhai Satbhai</h2>
+            <p class="f-role" id="fRole">Amraiwadi · Ahmedabad</p>
+          </div>
+
+          <div class="bot">
+            <div class="rule"></div>
+            <div class="f-contacts">
+              <div class="ct">
+                <b id="l1">Sanjaybhai</b>
+                <a class="num" id="p1" href="#" draggable="false">+91 87804 53658</a>
+                <a class="num" id="e1" href="#" draggable="false">satbhaisanjay4@gmail.com</a>
+              </div>
+              <div class="ct">
+                <b id="l2">Darshan · Son</b>
+                <a class="num" id="p2" href="#" draggable="false">+91 63510 15778</a>
+                <a class="num" id="e2" href="#" draggable="false">darshansatbhai38@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Back Face -->
+        <div class="face back">
+          <div class="sweep"></div>
+          <div class="glint"></div>
+          <div class="rim"></div>
+
+          <!-- Map Illustration -->
+          <div class="map" aria-label="Map illustration for location">
+            <svg viewBox="0 0 400 150" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <rect width="400" height="150" fill="#1c2023"/>
+              <path d="M-10 108 C70 84 120 134 200 114 S340 80 420 100 L420 140 C340 118 270 156 200 140 S70 116 -10 136Z" fill="#2e4650"/>
+              <g fill="#2b3135">
+                <rect x="14" y="10" width="70" height="34" rx="3"/>
+                <rect x="98" y="10" width="52" height="34" rx="3"/>
+                <rect x="266" y="8" width="58" height="36" rx="3"/>
+                <rect x="336" y="8" width="52" height="36" rx="3"/>
+                <rect x="14" y="58" width="46" height="30" rx="3"/>
+                <rect x="292" y="56" width="38" height="26" rx="3"/>
+              </g>
+              <rect x="170" y="12" width="76" height="30" rx="3" fill="#27382f"/>
+              <g stroke="#aab1b6" stroke-linecap="round" fill="none">
+                <path d="M0 50 H400" stroke-width="8"/>
+                <path d="M92 0 V150" stroke-width="6"/>
+                <path d="M254 0 V150" stroke-width="8"/>
+                <path d="M0 92 H400" stroke-width="4"/>
+                <path d="M158 0 V92" stroke-width="3"/>
+              </g>
+              <path d="M254 92 C254 84 262 80 262 70" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" stroke-dasharray="1 7"/>
+              <g transform="translate(262 70)">
+                <ellipse cx="0" cy="2" rx="9" ry="3.2" fill="rgba(0,0,0,.6)"/>
+                <path d="M0 0 C-12 -16 -14 -22 -14 -27 a14 14 0 1 1 28 0 c0 5 -2 11 -14 27z" fill="#d9744a"/>
+                <circle cx="0" cy="-27" r="5.5" fill="#ffffff"/>
+              </g>
+              <text x="278" y="55" font-family="Manrope,sans-serif" font-size="11" font-weight="700" fill="#ffffff" letter-spacing="1">GHAR</text>
+              <text x="14" y="146" font-family="Manrope,sans-serif" font-size="9" font-weight="700" fill="#c3cacf" letter-spacing="2">AMRAIWADI</text>
+            </svg>
+          </div>
+
+          <!-- Address & QR Row -->
+          <div class="b-body">
+            <div class="b-text" id="addrBox" data-copy="">
+              <p class="b-label">Ghar ka pata</p>
+              <p class="b-addr" id="bAddr">58, Vimalnagar, Opp. Ramnagar, Bhagwatinagar Road, Amraiwadi, Ahmedabad - 380026</p>
+              <p class="b-land" id="bLand">Landmark: Ambe Mataji Temple, Vimalnagar</p>
+            </div>
+            <div id="qr" aria-label="Scan for Google Maps directions"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Helpful tip -->
+    <p class="tip">Kisi bhi taraf drag karo. Number par tap karo to dialer khulega, number ya address par long press karo to copy ho jayega.</p>
+
+    <!-- Action buttons -->
+    <div class="actions" role="toolbar" aria-label="Card actions">
+      <button class="btn" id="flipBtn" type="button">
+        <svg viewBox="0 0 24 24"><path d="M15.97 17.03a.75.75 0 0 0 1.06-1.06l-4.5-4.5a.75.75 0 0 0-1.06 0l-4.5 4.5a.75.75 0 1 0 1.06 1.06L12 13.06l3.97 3.97ZM8.03 6.97a.75.75 0 0 0-1.06 1.06l4.5 4.5a.75.75 0 0 0 1.06 0l4.5-4.5a.75.75 0 0 0-1.06-1.06L12 10.94 8.03 6.97Z"/></svg>
+        Flip card
+      </button>
+      <a class="btn primary" id="mapBtn" href="https://maps.app.goo.gl/1ZLVua1iEhd3Xt8j7" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7Zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z"/></svg>
+        Open in Maps
+      </a>
+      <button class="btn" id="copyBtn" type="button">
+        <svg viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1Zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2Zm0 16H8V7h11v14Z"/></svg>
+        Copy address
+      </button>
+      <button class="btn" id="vcardBtn" type="button">
+        <svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7ZM5 18v2h14v-2H5Z"/></svg>
+        Save contact
+      </button>
+    </div>
+  </main>
+
+  <!-- Toast notification -->
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Fallback Copy Modal -->
+  <div id="sheet" hidden>
+    <div class="sheet-box">
+      <p>Auto copy nahi hua. Neeche ka text select karke copy kar lo.</p>
+      <textarea id="sheetText" rows="4" readonly></textarea>
+      <button class="btn primary" id="sheetClose" type="button">Band karo</button>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
