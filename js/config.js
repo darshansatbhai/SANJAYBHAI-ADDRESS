@@ -10,7 +10,7 @@ const CONFIG = Object.freeze({
   /* ── Meta & OG ───────────────────────────────────── */
   siteTitle: "Sanjaybhai Satbhai — Digital Visiting Card",
   siteDescription: "Contact info, ghar ka pata aur Google Maps location — Sanjaybhai Satbhai, Amraiwadi, Ahmedabad.",
-  siteUrl: "https://visiting-card-alpha.vercel.app",
+  siteUrl: "https://satbhai-address.vercel.app",
   ogImage: "", // optional social preview image URL
 
   /* ── Card Front ──────────────────────────────────── */
